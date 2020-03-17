@@ -7,7 +7,22 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center"
         tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/goToFirstBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="첫 화면으로 이동"/>
+
+        <Button
+            android:id="@+id/goToSecondBtn"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="두번째 화면으로 이동"/>
 
     </LinearLayout>
 
