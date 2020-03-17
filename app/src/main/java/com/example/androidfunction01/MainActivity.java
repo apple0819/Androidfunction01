@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
 //              입력한 메세지를 받아서, secondActivity에 전달!
                 String inputMessage = binding.inputEdt.getText().toString();
 
-//                인풋 메세지 변수를 "messae"라는 이름표를 붙여서 첨부.
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+//                인풋 메세지 변수를 "messae"라는 이름표를 붙여서 첨부.
                 intent.putExtra("message", inputMessage);
                 startActivity(intent);
             }
